@@ -150,8 +150,8 @@
 
   /* ---------- responsive ---------- */
   @media(max-width:900px){
-    .hero .wrap{grid-template-columns:1fr}
-    .hero-art{display:none}
+    .hero .wrap{grid-template-columns:1fr;gap:0}
+    .hero-art{margin:36px auto 0;max-width:560px;width:100%}
     .pillars .wrap{grid-template-columns:repeat(2,1fr)}
     .pillar{border-left:none;border-top:1px solid var(--line)}
     .grid{grid-template-columns:repeat(2,1fr)}
@@ -161,7 +161,7 @@
   @media(max-width:640px){
     .nav ul{display:none}
     .grid{grid-template-columns:1fr}
-    .hero .wrap{padding:70px 24px 60px}
+    .hero .wrap{padding:56px 24px 44px}
     section{padding:60px 0}
   }
 </style>
