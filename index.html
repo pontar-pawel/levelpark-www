@@ -63,6 +63,7 @@
   .hero .wrap{padding:90px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
   .hero-art{margin-top:10px}
   .hero-art img{width:100%;height:auto;display:block}
+  .hero-art-mobile{display:none}
   .kicker{
     font-size:.8rem;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);font-weight:700;
     margin-bottom:22px;
@@ -151,7 +152,8 @@
   /* ---------- responsive ---------- */
   @media(max-width:900px){
     .hero .wrap{grid-template-columns:1fr;gap:0}
-    .hero-art{margin:36px auto 0;max-width:560px;width:100%}
+    .hero-art{display:none}
+    .hero-art-mobile{display:block;margin:30px auto 34px;max-width:560px;width:100%;height:auto}
     .pillars .wrap{grid-template-columns:repeat(2,1fr)}
     .pillar{border-left:none;border-top:1px solid var(--line)}
     .grid{grid-template-columns:repeat(2,1fr)}
@@ -185,6 +187,7 @@
     <div class="kicker"><b>Projekty</b> · <i>Analizy</i> · <u>Realizacje</u> · <s>Konsulting</s></div>
     <h1>Inżynieria budowlana<br>na wysokim <span class="accent">poziomie</span>.</h1>
     <p class="lead">Projektujemy obiekty, które muszą udźwignąć więcej niż własny ciężar — odpowiedzialność, czas i oczekiwania inwestora. Łączymy warsztat projektanta z praktyką zdobytą na placu budowy: od konstrukcji budowlanych, przez mosty i hydrotechnikę, po drogi i architekturę. Każde zadanie prowadzimy od pierwszej kreski do ostatniego odbioru.</p>
+    <img class="hero-art-mobile" src="assets/kladka.png" alt="Szkic kładki podwieszonej — projekt LEVELPARK">
     <div class="cta">
       <a class="btn primary" href="#kontakt">Skontaktuj się</a>
       <a class="btn ghost" href="#uslugi">Zobacz, co robimy</a>
