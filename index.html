@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LEVELPARK – Projekty · Analizy · Realizacje · Konsulting</title>
 <meta name="description" content="LEVELPARK sp. z o.o. – biuro projektowe inżynierii budowlanej: konstrukcje, mosty, hydrotechnika, drogi, architektura, ekspertyzy, przeglądy i konsulting.">
+<link rel="alternate" hreflang="pl" href="https://levelpark.pl/">
+<link rel="alternate" hreflang="en" href="https://levelpark.pl/en/">
+<link rel="alternate" hreflang="de" href="https://levelpark.pl/de/">
+<link rel="alternate" hreflang="x-default" href="https://levelpark.pl/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -48,6 +52,11 @@
     padding-bottom:6px;border-bottom:2px solid transparent;transition:.2s;
   }
   .nav ul a:hover{color:var(--ink);border-color:var(--orange)}
+  .nav{gap:18px}
+  .langs{display:flex;gap:12px;font-size:.78rem;font-weight:700;letter-spacing:.08em}
+  .langs a{color:var(--muted);padding-bottom:3px;border-bottom:2px solid transparent}
+  .langs a:hover{color:var(--ink)}
+  .langs a.on{color:var(--ink);border-color:var(--orange)}
   .nav .burger{display:none}
 
   /* ---------- hero ---------- */
@@ -178,6 +187,7 @@
       <li><a href="#o-nas">O nas</a></li>
       <li><a href="#kontakt">Kontakt</a></li>
     </ul>
+    <div class="langs"><a class="on" href="/">PL</a><a href="/en/">EN</a><a href="/de/">DE</a></div>
   </div>
 </header>
 
